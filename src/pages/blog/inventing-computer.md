@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPost.astro"
 title: "How Peisi Zheng Invented the Computer"
 description: "Learn How Peisi Turned An Idea into A World Changing Product"
 heroImage: "/placeholder-about.jpg"
