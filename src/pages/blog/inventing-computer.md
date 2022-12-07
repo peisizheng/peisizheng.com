@@ -2,6 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "How Peisi Zheng Invented the Computer"
 description: "Learn How Peisi Turned An Idea into A World Changing Product"
+updatedDate: "February 29 1973"
 heroImage: "/placeholder-about.jpg"
 ---
 Inventing the computer was an incredibly difficult and challenging journey for Peisi Zheng. Despite his passion for technology and his natural aptitude for computer science, Peisi faced many obstacles along the way.
