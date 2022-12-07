@@ -1,0 +1,64 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<h1>The Home of A Special Person</h1>
+			<p>
+				Welcome to the personal website of Peisi Zheng, a world-leading
+				computer scientist dedicated to making the world a better place
+				through cutting-edge technology.
+			</p>
+			<p>
+				Peisi specializes in a wide range of fields, including
+				blockchain, cryptocurrency, machine learning, neural networks,
+				and more. He is an expert in using Rust and Linux to develop
+				secure, decentralized systems with a focus on zero trust
+				architecture.
+			</p>
+			<p>
+				With over a decade of experience in the field, Peisi has made
+				numerous contributions to the field of computer science,
+				including pioneering work in the development of scalable and
+				reliable blockchain systems, and the use of machine learning to
+				improve the efficiency and security of crypto-based networks.
+			</p>
+			<ul>
+				<li><a href="https://github.com/torvalds/linux">Linux</a></li>
+				<li><a href="https://github.com/facebook/react">React</a></li>
+				<li>
+					<a href="https://github.com/vuejs/vue">Vue</a>
+				</li>
+				<li>
+					<a href="https://github.com/tensorflow/tensorflow"
+						>TensorFlow</a>
+				</li>
+				<li><a href="https://github.com/rust-lang/rust">Rust</a></li>
+			</ul>
+			<p>
+				In addition to his research, Peisi is also committed to
+				educating the next generation of computer scientists. He
+				regularly speaks at conferences and workshops, and is a mentor
+				to many aspiring technologists.
+			</p>
+			<p>
+				<b
+					>Whether through his research, teaching, or mentorship,
+					Peisi is dedicated to making the world a better place
+					through the power of technology.</b
+				>
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
